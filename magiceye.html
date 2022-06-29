@@ -1,124 +1,203 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>MagicEye</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1 {font-family: "Montserrat", sans-serif}
-img {margin-bottom: -7px}
-.w3-row-padding img {margin-bottom: 12px}
-</style>
-</head>
-<body>
+  <head>
+    <title>MagicEye</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body,
+      h1 {
+        font-family: "Montserrat", sans-serif;
+      }
+      img {
+        margin-bottom: -7px;
+      }
+      .w3-row-padding img {
+        margin-bottom: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-content" style="max-width: 1500px">
+      <!--test start-->
+      <!-- Navbar (sit on top) -->
+      <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+          <a href="#home" class="w3-bar-item w3-button"
+            ><b>MagicEye</b>Photography</a
+          >
+          <!-- Float links to the right. Hide them on small screens -->
+          <div class="w3-right w3-hide-small">
+            <a href="#about" class="w3-bar-item w3-button">About</a>
+            <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+          </div>
+        </div>
+      </div>
 
-<!-- Sidebar -->
-<nav class="w3-sidebar w3-black w3-animate-top w3-xxlarge" style="display:none;padding-top:150px" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-black w3-xxlarge w3-padding w3-display-topright" style="padding:6px 24px">
-    <i class="fa fa-remove"></i>
-  </a>
-  <div class="w3-bar-block w3-center">
-    <a href="/roshan/rosh.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black">Home</a>
-  </div>
-</nav>
+      <!-- Header -->
+      <header
+        class="w3-display-container w3-content w3-wide"
+        style="max-width: 1500px"
+        id="home"
+      >
+        <img
+          class="w3-image"
+          src="images/main1.jpg"
+          alt="Architecture"
+          width="1500"
+          height="800"
+        />
+        <div class="w3-display-middle w3-margin-top w3-center">
+          <h1 class="w3-xxlarge w3-text-white">
+            <span class="w3-padding w3-black w3-opacity-min"
+              ><b>Magic Eye</b></span
+            >
+            <span class="w3-hide-small w3-text-light-grey"></span>
+          </h1>
+        </div>
+      </header>
 
-<!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
+      <!-- About Section -->
+      <div class="w3-container w3-padding-32" id="about">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">
+          About Us
+        </h3>
+        <p>
+          We specialize in wedding photography, corporate, family, events and couple
+          portraits, often traveling to your destination to capture the perfect
+          moment in the perfect place. We will be there with you every step of
+          the way to guarantee your special moments are captured for all time.
+          To us photography is about people being real and then letting us paint
+          a picture of that moment to remember it forever. This is the story
+          that matters most: real people, real stories, real moments. We are
+          incredibly blessed to have a team of photographers who work with us on
+          any given weekend.
+        </p>
+      </div>
 
-<!-- Header -->
-<div class="w3-opacity">
-<span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span> 
-<div class="w3-clear"></div>
-<header class="w3-center w3-margin-bottom">
-  <h1><b>Magic Eye</b></h1>
-  <p><b>Weddings | Events | Couple Portraits | Portraits & Fashion </b></p>
-  <!--<p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>-->
-</header>
-</div>
+      <!--test end-->
 
-<!-- Photo Grid -->
-<div class="w3-row" id="myGrid" style="margin-bottom:128px">
-  <div class="w3-third">
-    <img src="/roshan/images/he1.jpg" style="width:100%">
-    <img src="/roshan/images/he2.jpg" style="width:100%">
-    <img src="/roshan/images/he3.jpg" style="width:100%">
-    <img src="/roshan/images/he4.jpg" style="width:100%">
-    <img src="/roshan/images/he5.jpg" style="width:100%">
-    <img src="/roshan/images/he6.jpg" style="width:100%">
-  </div>
+      <!-- Header -->
+      <div class="w3-opacity">
+        <div class="w3-clear"></div>
+        <header class="w3-center w3-margin-bottom">
+          <h1><b>Magic Eye</b></h1>
+          <p>
+            <b>Weddings | Events | Couple Portraits | Portraits & Fashion </b>
+          </p>
+          <!--<p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>-->
+        </header>
+      </div>
 
-  <div class="w3-third">
-    <img src="/roshan/images/wi1.jpg" style="width:100%">
-    <img src="/roshan/images/wi2.jpg" style="width:100%">
-    <img src="/roshan/images/wi3.jpg" style="width:100%">
-    <img src="/roshan/images/wi4.jpg" style="width:100%">
-    <img src="/roshan/images/wi5.jpg" style="width:100%">
-    <img src="/roshan/images/wi6.jpg" style="width:100%">
-    <img src="/roshan/images/wi7.jpg" style="width:100%">
-    <img src="/roshan/images/wi8.jpg" style="width:100%">
-    <img src="/roshan/images/wi9.jpg" style="width:100%">
-    <img src="/roshan/images/wi10.jpg" style="width:100%">
-    <img src="/roshan/images/wi11.jpg" style="width:100%">
-    <img src="/roshan/images/wi12.jpg" style="width:100%">
-    <img src="/roshan/images/wi13.jpg" style="width:100%">
-  </div>
+      <!-- Photo Grid -->
+      <div class="w3-row" id="myGrid" style="margin-bottom: 128px">
+        <div class="w3-third">
+          <img src="images/he1.jpg" style="width: 100%" />
+          <img src="images/he2.jpg" style="width: 100%" />
+          <img src="images/he3.jpg" style="width: 100%" />
+          <img src="images/he4.jpg" style="width: 100%" />
+          <img src="images/he5.jpg" style="width: 100%" />
+          <img src="images/he6.jpg" style="width: 100%" />
+        </div>
 
-  <div class="w3-third">
-    <img src="/roshan/images/he7.jpg" style="width:100%">
-    <img src="/roshan/images/he8.jpg" style="width:100%">
-    <img src="/roshan/images/he9.jpg" style="width:100%">
-    <img src="/roshan/images/he10.jpg" style="width:100%">
-    <img src="/roshan/images/he11.jpg" style="width:100%">
-    <img src="/roshan/images/he12.jpg" style="width:100%">
-  </div>
-</div>
+        <div class="w3-third">
+          <img src="images/wi1.jpg" style="width: 100%" />
+          <img src="images/wi14.jpg" style="width: 100%" />
+          <img src="images/wi3.jpg" style="width: 100%" />
+          <img src="images/wi4.jpg" style="width: 100%" />
+          <img src="images/wi5.jpg" style="width: 100%" />
+          <img src="images/wi6.jpg" style="width: 100%" />
+          <img src="images/wi7.jpg" style="width: 100%" />
+          <img src="images/wi8.jpg" style="width: 100%" />
+          <img src="images/wi9.jpg" style="width: 100%" />
+          <img src="images/wi10.jpg" style="width: 100%" />
+          <img src="images/wi11.jpg" style="width: 100%" />
+          <img src="images/wi12.jpg" style="width: 100%" />
+          <img src="images/wi13.jpg" style="width: 100%" />
+        </div>
 
-<!-- contact -->
-<div class="contactarea" id="contact">
-  <div class="contact details" >
-    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Kaipattoor, Pathanamthitta<br>
-    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +91 8304830018,&nbsp  8330807018<br>
-    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> <a href="mailto:roshannrmusics@gmail.com" style="text-decoration: none;"> Email: roshannrmusics@gmail.com</a><br>
-  </div>
-  <p>Weddings | Events | Couple Portraits | Portraits & Fashion  </p>
-  
-</div>
+        <div class="w3-third">
+          <img src="images/he7.jpg" style="width: 100%" />
+          <img src="images/he8.jpg" style="width: 100%" />
+          <img src="images/he9.jpg" style="width: 100%" />
+          <img src="images/he10.jpg" style="width: 100%" />
+          <img src="images/he11.jpg" style="width: 100%" />
+          <img src="images/he12.jpg" style="width: 100%" />
+        </div>
+      </div>
 
-<!-- End Page Content -->
-</div>
+      <!-- contact -->
+      <div class="contactarea" id="contact">
+        <div class="contact details">
+          <i
+            class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+          ></i>
+          Kaipattoor, Pathanamthitta<br />
+          <i
+            class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+          ></i>
+          <a href="tel:+918304830018" style="text-decoration: none;">Phone: +91 8304830018</a> &nbsp; 
+            <a href="tel:+918330807018" style="text-decoration:none ">+918330807018</a><br />
+          <i
+            class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"
+          ></i>
+          <a
+            href="mailto:roshannrmusics@gmail.com"
+            style="text-decoration: none"
+          >
+            Email: roshannrmusics@gmail.com</a
+          ><br />
+        </div>
+        <p> &nbsp Lets get in touch and talk about your next project.</p>
+      </div>
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
-  <a href="/test.html" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>&nbsp;
-  <a href="/test.html" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>&nbsp;
-  <a href="/test.html" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-  <!--<p class="w3-medium">Powered by <a href="https://www.nks.com" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
-</footer>
- 
-<script>
-// Toggle grid padding
-function myFunction() {
-  var x = document.getElementById("myGrid");
-  if (x.className === "w3-row") {
-    x.className = "w3-row-padding";
-  } else { 
-    x.className = x.className.replace("w3-row-padding", "w3-row");
-  }
-}
+      <!-- End Page Content -->
+    </div>
 
-// Open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.width = "100%";
-  document.getElementById("mySidebar").style.display = "block";
-}
+    <!-- Footer -->
+    <footer
+      class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xxxlarge"
+      style="margin-top: 128px"
+    >
+      <a href="https://www.youtube.com/channel/UCpM5FG9Kh1Nis9Dhz3dktrw" target="_blank"
+        ><i class="fa fa-youtube w3-hover-opacity"></i></a
+      >&nbsp;
+      <a href="https://instagram.com/magic_eye_weddingstories?igshid=YmMyMTA2M2Y=" target="_blank"
+        ><i class="fa fa-instagram w3-hover-opacity"></i
+      ></a>
+      <!--<p class="w3-medium">Powered by <a href="https://www.nks.com" target="_blank" class="w3-hover-text-green">w3.css</a></p> -->
+    </footer>
 
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-</script>
+    <script>
+      // Toggle grid padding
+      function myFunction() {
+        var x = document.getElementById("myGrid");
+        if (x.className === "w3-row") {
+          x.className = "w3-row-padding";
+        } else {
+          x.className = x.className.replace("w3-row-padding", "w3-row");
+        }
+      }
 
-</body>
+      // Open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.width = "100%";
+        document.getElementById("mySidebar").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+      }
+    </script>
+  </body>
 </html>
